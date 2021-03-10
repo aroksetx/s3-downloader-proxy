@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  s3-assets-downloader:
+    container_name: s3-assets-downloader
+    command: npm start
+    build: .
+    restart: always
+    ports:
+      - "14982:8080"
+   

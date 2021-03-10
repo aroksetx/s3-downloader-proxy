@@ -1,0 +1,18 @@
+{
+  "name": "S3AssetsLoader",
+  "description": "",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "restify": "^8.5.1"
+  },
+  "private": true
+}
